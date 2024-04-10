@@ -1,0 +1,14 @@
+"use strict";
+let num1 = 1;
+let num2 = 1;
+let num3;
+// num1:string;
+// num2:boolean;
+num3 = num2 + num1;
+console.log(num3);
+num3 = num2 - num1;
+console.log(num3);
+num3 = num2 / num1;
+console.log(num3);
+num3 = num2 * num1;
+console.log(num3);

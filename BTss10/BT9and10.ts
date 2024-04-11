@@ -2,7 +2,7 @@ class Book{
     private title: string;
     private author: string;
     private quantity: number;
-    constructor(title: string, author: string, quantity: number){
+    constructor(title: string, author: string, quantity: number = 1){
         this.title = title;
         this.author = author;
         this.quantity = quantity;

@@ -8,7 +8,7 @@ let person = {
     name: "Hoa",
     age: 18,
     address: {
-        city: "Hà Nội"
+      city: "Hà Nội"
     }
 }
 

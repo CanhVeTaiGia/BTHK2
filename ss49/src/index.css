@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.active{
+    background-color: rgb(0, 145, 255);
+    color: white;
+    font-weight: 700;
+}

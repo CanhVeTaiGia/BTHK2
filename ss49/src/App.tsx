@@ -10,6 +10,8 @@ import HomePage from "./components/homePage/HomePage";
 import Login from "./components/login/Login";
 import Register from "./components/register/Register";
 import CustomLink from "./components/customLink/CustomLink";
+import ListUser from "./components/ListUser/ListUser";
+import UserDetail from "./components/userDetail/UserDetail";
 
 export default function App() {
   return (
@@ -31,6 +33,8 @@ export default function App() {
         <Route path="/home-page" element={<HomePage />} />
         <Route path="/not-found" element={<NotFound />} />
         <Route path="/customlink" element={<CustomLink></CustomLink>}></Route>
+        <Route path="/ListUser" element={<ListUser></ListUser>}></Route>
+        <Route path="/UserDetail" element={<UserDetail></UserDetail>}></Route>
       </Routes>
     </>
   );

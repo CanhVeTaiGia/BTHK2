@@ -37,7 +37,14 @@ export default function Home() {
       <br />
       <div>
         <h2>Bài 9</h2>
-        <Link className="underline text-sky-500" to="/customlink">Nhấn để sang bài 9</Link>
+        <Link className="underline text-sky-500" to="/customlink">
+          Nhấn để sang bài 9
+        </Link>
+      </div>
+      <br />
+      <div>
+        <h2>Bài 10</h2>
+        <Link to='/ListUser' className="underline text-sky-500">Nhấn để xem bài 10</Link>
       </div>
     </>
   );
